@@ -12,6 +12,8 @@ eureka:
 spring:
   application:
     name: user-server
+  zipkin:
+    base-url: http://47.94.9.39:9411/
 
 
 
